@@ -8,7 +8,7 @@ type TabNavigatorScreens = {
   Home: HomeScreenProps;
 };
 
-export default function StackNavigator() {
+export default function TabNavigator() {
   const Tab = createBottomTabNavigator<TabNavigatorScreens>();
 
   return (
