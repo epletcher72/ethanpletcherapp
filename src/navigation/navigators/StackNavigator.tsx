@@ -1,11 +1,11 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import SettingsScreen, {
-  SettingsScreenProps,
-} from '../../screens/stack/settingsScreen/SettingsScreen';
+import SettingsScreen from '../../screens/stack/settingsScreen/SettingsScreen';
+import TabNavigator from './TabNavigator';
 
 type StackNavigatorScreens = {
-  Settings: SettingsScreenProps;
+  TabNavigator: EmptyProps;
+  Settings: EmptyProps;
 };
 
 export default function StackNavigator() {
@@ -16,7 +16,8 @@ export default function StackNavigator() {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName={'Settings'}>
+      initialRouteName={'TabNavigator'}>
+      <Stack.Screen name={'TabNavigator'} component={TabNavigator} />
       <Stack.Screen name={'Settings'} component={SettingsScreen} />
     </Stack.Navigator>
   );
