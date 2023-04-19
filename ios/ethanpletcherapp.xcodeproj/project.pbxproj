@@ -16,6 +16,7 @@
 		25122F369B186C490DD21E6E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B10A5CB82386733F83677 /* ExpoModulesProvider.swift */; };
 		7699B88040F8A987B510C191 /* libPods-ethanpletcherapp-ethanpletcherappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ethanpletcherapp-ethanpletcherappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AAB2F7A529F093B100E79A9C /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB2F7A429F093B100E79A9C /* BootSplash.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ethanpletcherapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ethanpletcherapp-ethanpletcherappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ethanpletcherapp-ethanpletcherappTests.release.xcconfig"; path = "Target Support Files/Pods-ethanpletcherapp-ethanpletcherappTests/Pods-ethanpletcherapp-ethanpletcherappTests.release.xcconfig"; sourceTree = "<group>"; };
 		A76C91A704EBBE891ABFB0B9 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ethanpletcherapp-ethanpletcherappTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		AAB2F7A429F093B100E79A9C /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = ../../fwaygoapp/ios/fwaygoapp/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				AAB2F7A429F093B100E79A9C /* BootSplash.storyboard */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB2F7A529F093B100E79A9C /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
